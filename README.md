@@ -3,7 +3,7 @@
 ---
 
 <!-- TOC -->
-1. [createtp.sh](#-createtp.sh) will create KVM template but only for below OS;
+1. [createtp.sh](#createtp.sh) will create KVM template but only for below OS;
 * Available OS templates:
 * alma-8.5                 x86_64     AlmaLinux 8.5
 * centos-7.8               x86_64     CentOS 7.8
