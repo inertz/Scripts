@@ -15,7 +15,8 @@
 
 <!-- TOC -->
 ---
-2. [snapshot.sh](#snapshot.sh) will create snapshot of the VM. It can be use as a cronjob.
+2. [snapshot.sh](snapshot.sh) will create a snapshot of the VM. It can be used as a cronjob.
+
 Sample command:
 ```shell
 [root@vz ~]# ./snapshot.sh
