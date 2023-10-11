@@ -12,6 +12,10 @@
 * ubuntu-20.04             x86_64     Ubuntu 20.04 (focal)
 * fedora-32                x86_64     Fedora® 32 Server
 
+2. [snapshot.sh](#snapshot.sh) will create snapshot of the VM. It can be use as a cronjob.
+
 <!-- TOC -->
+
+
 
 ---
