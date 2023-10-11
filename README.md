@@ -13,6 +13,11 @@
 * fedora-32                x86_64     Fedora® 32 Server
 
 2. [snapshot.sh](#snapshot.sh) will create snapshot of the VM. It can be use as a cronjob.
+Sample command:
+[root@vz ~]# ./snapshot.sh
+Domain snapshot alma8 2023-10-11-15:20 created
+Domain snapshot alma81 2023-10-11-15:20 created
+Domain snapshot opensuse 2023-10-11-15:20 created
 
 <!-- TOC -->
 
