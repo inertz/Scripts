@@ -13,9 +13,12 @@ read -p "Enter the OS name (e.g., alma-8.5): " os_name
 # Prompt the user for the root password
 read -p "Enter the root password: " root_password
 
+# Prompt the user for the hostname
+read -p "Enter the hostname: " hostname
+
 # Construct the virt-builder command
 #virt_builder_command="virt-builder $os_name --format qcow2 --size 20G -o /var/lib/libvirt/images/${os_name}.qcow2 --root-password password:${root_password}"
-virt_builder_command="virt-builder $os_name --format qcow2 -o /var/lib/libvirt/images/${os_name}.qcow2 --root-password password:${root_password}"
+virt_builder_command="virt-builder $os_name --format qcow2 -o /var/lib/libvirt/images/${os_name}.qcow2 --root-password password:${root_password} --hostname ${hostname}"
 
 # Execute the virt-builder command
 echo "Executing the following command:"
