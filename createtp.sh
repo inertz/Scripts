@@ -2,7 +2,9 @@
 
 # List available OS templates
 echo "Available OS templates:"
+# Run below command to show all OS template 
 #virt-builder -l
+# Run below command to show only selected OS template
 virt-builder -l | grep -E 'alma-8.5|centos-7.8|centos-8.2|debian-12|ubuntu-20.04|fedora-32'
 
 # Prompt the user for the OS name
