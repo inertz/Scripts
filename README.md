@@ -23,3 +23,4 @@ Sample command:
 Domain snapshot alma8 2023-10-11-15:20 created
 Domain snapshot alma81 2023-10-11-15:20 created
 Domain snapshot opensuse 2023-10-11-15:20 created
+
