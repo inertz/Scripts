@@ -31,4 +31,8 @@ Domain snapshot opensuse 2023-10-11-15:20 created
 Open your terminal.
 Create a new bash script file. For example, you can name it 'get_pod_logs.sh'
 
+<!-- TOC -->
+---
+2. [snapshot.sh](snapshot.sh) will create a snapshot of the VM. It can be used as a cronjob.
+
 
