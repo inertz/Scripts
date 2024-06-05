@@ -23,7 +23,7 @@ Sample command:
 Domain snapshot alma8 2023-10-11-15:20 created
 Domain snapshot alma81 2023-10-11-15:20 created
 Domain snapshot opensuse 2023-10-11-15:20 created
-```shell
+shell```
 <!-- TOC -->
 ---
 3. [get_pod_logs.sh](get_pod_logs.sh) Bash script that allows you to input a different pod name to check their log.
