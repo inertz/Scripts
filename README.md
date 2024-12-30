@@ -62,3 +62,31 @@ Requirements
 * Apache web server installed and running.
 * Access to edit /etc/httpd/conf.d/ssl.conf.
 
+<!-- TOC -->
+---
+5. The [remove_ssl_certificate.sh](remove_ssl_certificate.sh) script automates the process of obtaining and configuring SSL certificates for domains using Let's Encrypt.
+
+Features
+* Deletes the SSL certificate for the specified domain.
+* Removes associated configuration entries in ssl.conf.
+* Deletes additional configuration files related to the domain in /etc/httpd/conf.d/.
+* Backs up the ssl.conf file for safety.
+* Validates the updated Apache configuration.
+* Restarts Apache to apply the changes.
+
+Usage
+* Run the script with sudo privileges if you use Ubuntu:
+```shell
+sudo ./remove_ssl_certificate.sh
+
+```
+* Enter the domain name when prompted (e.g., domain.com).
+* The script handles certificate deletion and Apache configuration cleanup automatically.
+
+
+Requirements
+* Certbot installed
+* Apache web server installed and running.
+* Access to /etc/httpd/conf.d/ and /etc/letsencrypt/ directories.
+
+
