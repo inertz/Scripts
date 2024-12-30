@@ -26,12 +26,13 @@ Domain snapshot opensuse 2023-10-11-15:20 created
 ```
 <!-- TOC -->
 ---
-3. [get_pod_logs.sh](get_pod_logs.sh) Bash script that allows you to input a different pod name to check their log.
+3. This [get_pod_logs.sh](get_pod_logs.sh) Bash script retrieves the logs of a specified Kubernetes pod in the "openstack" namespace using MicroK8s.
 
 * Open your terminal.
 * Create a new bash script file. For example, you can name it 'get_pod_logs.sh'
 * Make the script executable
-* Now you can use the script to get the logs of any pod by providing the pod name as an argument. For example, to get the logs of a pod named example-pod, you would run:
+Usage
+Now you can use the script to get the logs of any pod by providing the pod name as an argument. For example, to get the logs of a pod named example-pod, you would run:
 ```shell
 ./get_pod_logs.sh example-pod
 ```
