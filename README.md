@@ -57,4 +57,8 @@ sudo ./add_ssl_certificate.sh
 ```
 * Follow the prompts or verify the output for any errors.
 
+Requirements
+* Certbot installed (apt-get install certbot or yum install certbot).
+* Apache web server installed and running.
+* Access to edit /etc/httpd/conf.d/ssl.conf.
 
