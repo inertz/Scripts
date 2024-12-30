@@ -64,7 +64,7 @@ Requirements
 
 <!-- TOC -->
 ---
-5. The [remove_ssl_certificate.sh](remove_ssl_certificate.sh) script automates the process of obtaining and configuring SSL certificates for domains using Let's Encrypt.
+5. The [remove_ssl_certificate.sh](remove_ssl_certificate.sh) script facilitates the removal of SSL certificates for domains and cleans up Apache configurations.
 
 Features
 * Deletes the SSL certificate for the specified domain.
