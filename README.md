@@ -3,22 +3,23 @@
 ---
 This GitHub Page showcases a collection of personal scripts and tools I have developed. These scripts are designed to streamline tasks, automate processes, and provide solutions to common challenges in software development, server management, and system configuration.
 
-What You’ll Find Here
-Automation Scripts: Tools for simplifying repetitive tasks like backups, data processing, and system monitoring.
-Server Configuration: Scripts for setting up and optimizing web servers (e.g., Apache, cPanel DNS).
-Custom Utilities: Personalized tools tailored to address unique challenges in system administration and web development.
-Networking Solutions: Scripts for managing network configurations, including IP whitelisting and Netplan setups.
-Purpose
-The purpose of this page is to:
+## What You’ll Find Here
+- **Automation Scripts**: Tools for simplifying repetitive tasks like backups, data processing, and system monitoring.
+- **Server Configuration**: Scripts for setting up and optimizing web servers (e.g., Apache, cPanel DNS).
+- **Custom Utilities**: Personalized tools tailored to address unique challenges in system administration and web development.
+- **Networking Solutions**: Scripts for managing network configurations, including IP whitelisting and Netplan setups.
 
-Share knowledge and resources with the developer community.
-Document my learning journey and experiences in programming and system administration.
-Provide reusable scripts for quick integration into projects.
-Get Started
+## Purpose
+The purpose of this repository is to:
+1. Share knowledge and resources with the developer community.
+2. Document my learning journey and experiences in programming and system administration.
+3. Provide reusable scripts for quick integration into projects.
+
+## Get Started
 Explore the scripts in the repository and feel free to contribute, report issues, or suggest enhancements!
 
-Contact Me
-For feedback, inquiries, or collaboration opportunities, reach out to me via email or GitHub Discussions.
+## Contact Me
+For feedback, inquiries, or collaboration opportunities, reach out to me via email or [GitHub Discussions](#).
 
 
 <!-- TOC -->
