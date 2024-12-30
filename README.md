@@ -40,10 +40,21 @@ Domain snapshot opensuse 2023-10-11-15:20 created
 ---
 4. The [add_ssl_certificate.sh](add_ssl_certificate.sh) script automates the process of obtaining and configuring SSL certificates for domains using Let's Encrypt.
 
-Sample command:
+Features
+* Requests SSL certificates for specified domains.
+* Automatically updates the Apache ssl.conf with the new domain's configuration.
+* Backs up the existing configuration before modifications.
+* Validates the Apache configuration.
+* Restarts Apache to apply changes.
+
+Usage
+* Ensure you have Certbot installed and Apache is configured.
+* Prepare a file named domains.txt containing the domains you want to secure, one per line.
+* Run the script with sudo privileges if you use Ubuntu:
 ```shell
 sudo ./add_ssl_certificate.sh
 
 ```
+* Follow the prompts or verify the output for any errors.
 
 
