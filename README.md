@@ -36,6 +36,14 @@ Domain snapshot opensuse 2023-10-11-15:20 created
 ./get_pod_logs.sh example-pod
 ```
 
+<!-- TOC -->
+---
+4. The [add_ssl_certificate.sh](add_ssl_certificate.sh) script automates the process of obtaining and configuring SSL certificates for domains using Let's Encrypt.
 
+Sample command:
+```shell
+sudo ./add_ssl_certificate.sh
+
+```
 
 
