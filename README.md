@@ -1,5 +1,4 @@
-# Script
- Welcome to My GitHub Scripts Repository
+# Welcome to My GitHub Scripts Repository
 ---
 This GitHub Page showcases a collection of personal scripts and tools I have developed. These scripts are designed to streamline tasks, automate processes, and provide solutions to common challenges in software development, server management, and system configuration.
 
