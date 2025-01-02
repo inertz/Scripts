@@ -69,11 +69,11 @@ Features
 Usage
 * Ensure you have Certbot installed and Apache is configured.
 * Prepare a file named domains.txt containing the domains you want to secure, one per line.
-* Run the script with sudo privileges if you use Ubuntu:
+* Run the script with sudo privileges if you use Ubuntu.
+* Follow the prompts or verify the output for any errors.
 ```shell
 sudo ./add_ssl_certificate.sh
 ```
-* Follow the prompts or verify the output for any errors.
 
 Requirements
 * Certbot installed (apt-get install certbot or yum install certbot).
