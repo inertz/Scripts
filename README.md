@@ -93,14 +93,12 @@ Features
 * Restarts Apache to apply the changes.
 
 Usage
-* Run the script with sudo privileges if you use Ubuntu:
-```shell
-sudo ./remove_ssl_certificate.sh
-
-```
+* Run the script with sudo privileges if you use Ubuntu.
 * Enter the domain name when prompted (e.g., domain.com).
 * The script handles certificate deletion and Apache configuration cleanup automatically.
-
+```shell
+sudo ./remove_ssl_certificate.sh
+```
 
 Requirements
 * Certbot installed
