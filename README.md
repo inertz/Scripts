@@ -19,7 +19,7 @@ Explore the scripts in the repository and feel free to contribute, report issues
 
 ## Contact Me
 For feedback, inquiries, or collaboration opportunities, reach out to me via email or [GitHub Discussions](#).
----
+
 ---
 <!-- TOC -->
 1. [createtp.sh](createtp.sh) will create KVM template but only for below OS;
