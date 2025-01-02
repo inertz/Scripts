@@ -72,7 +72,6 @@ Usage
 * Run the script with sudo privileges if you use Ubuntu:
 ```shell
 sudo ./add_ssl_certificate.sh
-
 ```
 * Follow the prompts or verify the output for any errors.
 
