@@ -1,4 +1,5 @@
 #!/bin/bash
+#test push 7-1-1025
 
 # List available OS templates
 echo "Available OS templates:"
