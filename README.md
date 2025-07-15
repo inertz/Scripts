@@ -114,7 +114,7 @@ This script helps you manually compile and install a custom Linux kernel on Cent
 It is designed for:
 - Learning purposes or patching custom kernel modules
 
----
+
 
  ⚙️ Features
 
@@ -137,7 +137,7 @@ This script allows you to **safely test a new Linux kernel** on CentOS 7 by conf
 - ✅ Automatic fallback to a working kernel if the new one fails
 - ✅ Automatic marking of successful boots using `systemd`
 
----
+
 
  ⚙️ What It Does
 
