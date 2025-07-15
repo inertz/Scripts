@@ -125,7 +125,7 @@ It is designed for:
 - Regenerates GRUB2 boot configuration
 - Sets new kernel as default boot entry
 
----
+
 <!-- TOC -->
 ---
 7. Safe Kernel Boot Test Script [safe-kernel-test.sh](safe-kernel-test.sh)
