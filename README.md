@@ -150,7 +150,7 @@ This script allows you to **safely test a new Linux kernel** on CentOS 7 by conf
 
 
 ---
-8. CPU Temperature Alert Script
+8. CPU Temperature Alert Script [temperature-sensors.sh](temperature-sensors.sh)
 
 This script monitors the server's CPU temperature using `lm_sensors` and sends an email alert if the temperature exceeds a specified threshold.
 
