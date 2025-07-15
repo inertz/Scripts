@@ -126,6 +126,30 @@ It is designed for:
 - Sets new kernel as default boot entry
 
 ---
+<!-- TOC -->
+---
+7. Safe Kernel Boot Test Script [safe-kernel-test.sh](safe-kernel-test.sh)
+
+This script allows you to **safely test a new Linux kernel** on CentOS 7 by configuring:
+
+- ✅ Auto-reboot after kernel panic
+- ✅ GRUB to boot the test kernel only once
+- ✅ Automatic fallback to a working kernel if the new one fails
+- ✅ Automatic marking of successful boots using `systemd`
+
+---
+
+## ⚙️ What It Does
+
+- Sets `kernel.panic = 10` to auto-reboot 10 seconds after a kernel panic.
+- Configures GRUB to use saved/default boot entry logic.
+- Uses `grub2-reboot` to boot into a selected kernel **once**.
+- Sets up a `systemd` service (`mark-boot-success`) to **mark the boot as successful** if the system reaches multi-user mode.
+
+---
+
+
+
 
 
 
