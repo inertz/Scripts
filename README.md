@@ -146,8 +146,32 @@ This script allows you to **safely test a new Linux kernel** on CentOS 7 by conf
 - Uses `grub2-reboot` to boot into a selected kernel **once**.
 - Sets up a `systemd` service (`mark-boot-success`) to **mark the boot as successful** if the system reaches multi-user mode.
 
----
+<!-- TOC -->
 
+
+---
+8. CPU Temperature Alert Script
+
+This script monitors the server's CPU temperature using `lm_sensors` and sends an email alert if the temperature exceeds a specified threshold.
+
+Features
+
+- Uses `lm_sensors` to detect CPU core temperatures.
+- Sends email alert to `support@iwhost.com` if any core exceeds 60°C.
+- Logs current temperature when alert is sent.
+- Simple shell script; can be scheduled via `cron`.
+
+Requirements
+
+- `lm_sensors`
+- `mail` command (from `mailx` or `mailutils`)
+- Properly configured mail transfer agent (Postfix, Sendmail, etc.)
+
+Installation
+
+1. Install dependencies:
+   ```bash
+   yum install lm_sensors mailx -y
 
 
 
