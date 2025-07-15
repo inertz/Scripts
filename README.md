@@ -107,7 +107,7 @@ Requirements
 
 <!-- TOC -->
 ---
-# Manual Linux Kernel Build Script for CentOS 7
+6. Manual Linux Kernel Build Script for CentOS 7 [compile-kernel.sh](compile-kernel.sh)
 
 This script helps you manually compile and install a custom Linux kernel on CentOS 7 systems.
 
