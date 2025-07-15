@@ -116,7 +116,7 @@ It is designed for:
 
 ---
 
-## ⚙️ Features
+ ⚙️ Features
 
 - Downloads and extracts the desired Linux kernel version
 - Reuses current kernel configuration (`/boot/config-*`)
@@ -139,7 +139,7 @@ This script allows you to **safely test a new Linux kernel** on CentOS 7 by conf
 
 ---
 
-## ⚙️ What It Does
+ ⚙️ What It Does
 
 - Sets `kernel.panic = 10` to auto-reboot 10 seconds after a kernel panic.
 - Configures GRUB to use saved/default boot entry logic.
