@@ -172,7 +172,7 @@ Installation
 1. Install dependencies:
    ```bash
    yum install lm_sensors mailx -y
-
+```
 
 
 
