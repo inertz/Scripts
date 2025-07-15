@@ -105,4 +105,27 @@ Requirements
 * Apache web server installed and running.
 * Access to /etc/httpd/conf.d/ and /etc/letsencrypt/ directories.
 
+<!-- TOC -->
+---
+# Manual Linux Kernel Build Script for CentOS 7
+
+This script helps you manually compile and install a custom Linux kernel on CentOS 7 systems.
+
+It is designed for:
+- Learning purposes or patching custom kernel modules
+
+---
+
+## ⚙️ Features
+
+- Downloads and extracts the desired Linux kernel version
+- Reuses current kernel configuration (`/boot/config-*`)
+- Compiles kernel and modules using all CPU cores
+- Installs modules and kernel into `/boot`
+- Regenerates GRUB2 boot configuration
+- Sets new kernel as default boot entry
+
+---
+
+
 
