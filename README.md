@@ -157,7 +157,7 @@ This script monitors the server's CPU temperature using `lm_sensors` and sends a
 Features
 
 - Uses `lm_sensors` to detect CPU core temperatures.
-- Sends email alert to `youremail@yahoo.com` if any core exceeds 60°C.
+- Sends email alert to `support@domain.com` if any core exceeds 60°C.
 - Logs current temperature when alert is sent.
 - Simple shell script; can be scheduled via `cron`.
 
