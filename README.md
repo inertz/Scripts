@@ -169,6 +169,8 @@ The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interf
 📂 Files
 - [setup-bond.sh](setup-bond.sh) → Creates and configures the bond.
 - [revert-bond.sh](revert-bond.sh) → Removes the bond and restores original NICs.
+- [setup-bond0.sh](setup-bond0.sh) → Creates and configures the bond for 4 NIC.
+- [revert-bond0.sh](revert-bond0.sh) → Removes the bond and restores original 4 NICs.
 
 ---
 
