@@ -147,6 +147,35 @@ This script allows you to **safely test a new Linux kernel** on CentOS 7 by conf
 - Sets up a `systemd` service (`mark-boot-success`) to **mark the boot as successful** if the system reaches multi-user mode.
 
 <!-- TOC -->
+---
+
+8. AlmaLinux Bonding Scripts
+
+This repository contains helper scripts to easily configure and revert **NIC bonding** on AlmaLinux 9 (and RHEL 9 compatible systems) using **NetworkManager (nmcli)**.
+
+The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interfaces.
+
+---
+
+📌 Features
+- Creates a bond interface (`bond0`) in **802.3ad (LACP)** mode.
+- Assigns a static IP (`10.10.10.116/24`) and default gateway (`10.10.10.1`).
+- Automatically enslaves interfaces (`ens37f0` and `ens37f1`).
+- Cleans up old bond connections before creating a new one.
+- Provides a revert script to restore interfaces to their original state.
+
+---
+
+📂 Files
+- `[setup-bond.sh](setup-bond.sh)` → Creates and configures the bond.
+- `[revert-bond.sh](revert-bond.sh)` → Removes the bond and restores original NICs.
+
+---
+
+⚙️ Requirements
+- AlmaLinux 9 / RHEL 9
+- NetworkManager enabled
+- Root privileges
 
 
 
