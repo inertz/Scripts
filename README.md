@@ -155,8 +155,6 @@ This repository contains helper scripts to easily configure and revert **NIC bon
 
 The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interfaces.
 
----
-
 📌 Features
 - Creates a bond interface (`bond0`) in **802.3ad (LACP)** mode.
 - Assigns a static IP (`10.10.10.116/24`) and default gateway (`10.10.10.1`).
@@ -164,15 +162,11 @@ The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interf
 - Cleans up old bond connections before creating a new one.
 - Provides a revert script to restore interfaces to their original state.
 
----
-
 📂 Files
 - [setup-bond.sh](setup-bond.sh) → Creates and configures the bond.
 - [revert-bond.sh](revert-bond.sh) → Removes the bond and restores original NICs.
 - [setup-bond0.sh](setup-bond0.sh) → Creates and configures the bond for 4 NIC.
 - [revert-bond0.sh](revert-bond0.sh) → Removes the bond and restores original 4 NICs.
-
----
 
 ⚙️ Requirements
 - AlmaLinux 9 / RHEL 9
