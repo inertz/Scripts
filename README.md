@@ -173,6 +173,22 @@ The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interf
 - NetworkManager enabled
 - Root privileges
 
+<!-- TOC -->
+---
+
+9. Roundcube Log Parser
+
+`[parse_roundcube_log.sh](parse_roundcube_log.sh)` is a Bash script designed to analyze **Roundcube webmail logs** and extract useful statistics such as:
+
+- Total number of login attempts  
+- Successful vs failed logins  
+- Top usernames and IP addresses  
+- Login activity by date and time  
+- Optional: suspicious IPs or brute-force attempts  
+
+It helps mail server administrators monitor and secure their Roundcube webmail environment.
+
+
 
 
 
