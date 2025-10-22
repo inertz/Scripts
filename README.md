@@ -188,6 +188,16 @@ The scripts automate the setup of an `802.3ad (LACP)` bond with two slave interf
 
 It helps mail server administrators monitor and secure their Roundcube webmail environment.
 
+<!-- TOC -->
+---
+
+10. Comprehensive cPanel Permission Repair Utility
+
+[cpfixperms.sh](cpfixperms.sh) is a Comprehensive cPanel Permission Repair Utility
+Safely repairs ownership and permissions for one, multiple, or all cPanel users, with logging, dry-run, and summary report.
+
+
+
 
 
 
