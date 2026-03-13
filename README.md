@@ -203,6 +203,7 @@ Safely repairs ownership and permissions for one, multiple, or all cPanel users,
 
 [daily-report.sh](daily-report.sh) A lightweight Linux server monitoring script designed for automated daily health checks.
 The script can run manually or via cron job, generate a server status report, and optionally send the result via email.
+[Howto](howto.md)
 
 
 
