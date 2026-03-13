@@ -40,7 +40,8 @@ yum install smartmontools -y
 
 ```bash
 apt install smartmontools -y
-Installation
+
+### Installation
 1. Download the Script
 
 Example location:
