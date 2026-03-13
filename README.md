@@ -196,6 +196,14 @@ It helps mail server administrators monitor and secure their Roundcube webmail e
 [cpfixperms.sh](cpfixperms.sh) is a Comprehensive cPanel Permission Repair Utility
 Safely repairs ownership and permissions for one, multiple, or all cPanel users, with logging, dry-run, and summary report.
 
+<!-- TOC -->
+---
+
+11. Daily Server Health Check Script
+
+[daily-report.sh](daily-report.sh) A lightweight Linux server monitoring script designed for automated daily health checks.
+The script can run manually or via cron job, generate a server status report, and optionally send the result via email.
+
 
 
 
